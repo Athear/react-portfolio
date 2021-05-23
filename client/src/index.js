@@ -65,61 +65,7 @@ import * as serviceWorker from './serviceWorker';
 class Root extends Component{
     render(){
         return(
-            <BrowserRouter basename={'/'}>
-                <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/paralax`} component={Paralax}/>
-
-                    <Route exact path={`${process.env.PUBLIC_URL}/digital-agency`} component={DigitalAgency}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/creative-agency`} component={CreativeAgency}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/personal-portfolio`} component={PersonalPortfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/studio-agency`} component={StudioAgency}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/business`} component={Business}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} component={PortfolioLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/designer-portfolio`} component={DesignerPortfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/creative-portfolio`} component={CreativePortfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/interior-landing`} component={InteriorLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/>
-
-
-                    {/* Element Layot */}
-                    <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
-
-
-                    {/* Blocks Elements  */}
-                    <Route exact path={`${process.env.PUBLIC_URL}/team`} component={Team}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/counters`} component={Counters}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/testimonial`} component={Testimonial}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/video-popup`} component={VideoPopup}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/gallery`} component={Gallery}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/clint-logo`} component={Brand}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/progressbar`} component={ProgressBar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/contact-form`} component={ContactForm}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/google-map`} component={GoogleMap}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/columns`} component={Columns}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/pricing-table`} component={PricingTable}/>
-
-
-                    
-                    <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
-                    <Route component={error404}/>
-
-                </Switch>
-            </BrowserRouter>
+            <DarkPortfolioLanding />
         )
     }
 }
