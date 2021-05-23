@@ -10,6 +10,7 @@ import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
+import {AboutMe} from "../profile-data/aboutMe"
 
 const SlideList = [
     {
@@ -21,8 +22,8 @@ const SlideList = [
     }
 ]
 const PortfolioLanding = () => {
-    let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+    let title = "Todd Malone's profile",
+        description = AboutMe;
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
