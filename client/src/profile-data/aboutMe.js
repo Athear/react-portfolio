@@ -4,19 +4,19 @@ const Skills=  [
         title: "Main skills",
         items: [
             {
-                header:"User experience design",
-                sub:"UI/UX",
-                description:"Delight the user and make it work."
+                header:"Database design",
+                sub:"SQL/Mongo",
+                description:"Designing and maintaining back-end storage solutions"
             },
             {
-                header:"Web and user interface design",
-                sub:"Development",
-                description:"Websites, web experiences, ..."
+                header:"Software Development",
+                sub:"Programming",
+                description:""
             },
             {
-                header:"Interaction design ",
-                sub:"Animation",
-                description:"I like to move it move it."
+                header:"Colaborative development",
+                sub:"Teamwork",
+                description:""
             }
         ]
     },
