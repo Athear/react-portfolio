@@ -11,7 +11,7 @@ const Skills=  [
             {
                 header:"Software Development",
                 sub:"Programming",
-                description:""
+                description:"Seven years experience with a variety of languages"
             },
             {
                 header:"Colaborative development",
