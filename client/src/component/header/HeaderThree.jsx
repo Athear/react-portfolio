@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
+import {FaTwitter ,FaInstagram ,FaFacebookF , FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/todd-malone-67a59594/'},
+    // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social:<FaGithub />, link: 'https://github.com/Athear'},
 ]
 class HeaderThree extends Component{
     constructor(props) {
@@ -93,11 +94,6 @@ class HeaderThree extends Component{
                                     <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
-                        </div>
-                        <div className="header-btn">
-                            <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
-                                <span>buy now</span>
-                            </a>
                         </div>
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
