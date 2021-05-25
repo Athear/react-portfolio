@@ -79,6 +79,14 @@
             background-image: url(/assets/images/portfolio/portfolio-4.jpg);
         }
 
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/portfolio-5.jpg);
+        }
+
+        &.image-6 {
+            background-image: url(/assets/images/portfolio/portfolio-6.jpg);
+        }
+
         &::after{
             background-color: rgba(45,45,45,.35);
             position: absolute;
@@ -121,6 +129,12 @@
         }
         &.image-4 {
             background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+        }
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/portfolio-5.jpg);
+        }
+        &.image-6 {
+            background-image: url(/assets/images/portfolio/portfolio-6.jpg);
         }
     }
 
