@@ -18,7 +18,7 @@ class ContactThree extends Component{
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">{this.props.contactTitle}</h2>
-                                <p className="description">I am available for freelance work. Connect with me via email:
+                                <p className="description">I am open to new opportunities! Connect with me via email:
                                     <a href="mailto:toddomalone@gmail.com"> toddomalone@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
@@ -69,11 +69,11 @@ class ContactThree extends Component{
                                 </form>
                             </div>
                         </div>
-                        <div className="col-lg-6 order-1 order-lg-2">
+                        {/* <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
                                 <img src={`${this.props.contactImages}`} alt="trydo"/>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
